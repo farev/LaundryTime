@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54630E1F2D285928006F0F95 /* LaundryRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54630E122D285928006F0F95 /* LaundryRoom.swift */; };
+		54630E202D285928006F0F95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54630E142D285928006F0F95 /* Preview Assets.xcassets */; };
+		54630E212D285928006F0F95 /* LaundryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54630E162D285928006F0F95 /* LaundryViewModel.swift */; };
+		54630E222D285928006F0F95 /* LaundryRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54630E182D285928006F0F95 /* LaundryRoomView.swift */; };
+		54630E242D285928006F0F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54630E1B2D285928006F0F95 /* Assets.xcassets */; };
+		54630E252D285928006F0F95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54630E1C2D285928006F0F95 /* ContentView.swift */; };
+		54630E262D285928006F0F95 /* Laundry_TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54630E1D2D285928006F0F95 /* Laundry_TimeApp.swift */; };
+		54630E2D2D285AA0006F0F95 /* Laundry_TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54630E272D285AA0006F0F95 /* Laundry_TimeApp.swift */; };
+		54630E2F2D285AA0006F0F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54630E292D285AA0006F0F95 /* Assets.xcassets */; };
+		54630E302D285AA0006F0F95 /* App.js in Resources */ = {isa = PBXBuildFile; fileRef = 54630E2B2D285AA0006F0F95 /* App.js */; };
+		54630E312D285AA0006F0F95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54630E2C2D285AA0006F0F95 /* Preview Assets.xcassets */; };
+		54630E332D285B07006F0F95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54630E322D285B07006F0F95 /* ContentView.swift */; };
+		54630E3B2D28834B006F0F95 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54630E3A2D28834B006F0F95 /* FirebaseService.swift */; };
+		54630E3E2D2884AE006F0F95 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 54630E3D2D2884AE006F0F95 /* FirebaseFirestore */; };
+		54630E402D288578006F0F95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54630E3F2D288578006F0F95 /* GoogleService-Info.plist */; };
+		54BAA38B2D274D4D00409610 /* Laundry_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAA38A2D274D4D00409610 /* Laundry_TimeTests.swift */; };
+		54BAA3952D274D4D00409610 /* Laundry_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAA3942D274D4D00409610 /* Laundry_TimeUITests.swift */; };
+		54BAA3972D274D4D00409610 /* Laundry_TimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAA3962D274D4D00409610 /* Laundry_TimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54BAA3872D274D4D00409610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BAA36E2D274D4C00409610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54BAA3752D274D4C00409610;
+			remoteInfo = "Laundry Time";
+		};
+		54BAA3912D274D4D00409610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BAA36E2D274D4C00409610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54BAA3752D274D4C00409610;
+			remoteInfo = "Laundry Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54630E122D285928006F0F95 /* LaundryRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaundryRoom.swift; sourceTree = "<group>"; };
+		54630E142D285928006F0F95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54630E162D285928006F0F95 /* LaundryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaundryViewModel.swift; sourceTree = "<group>"; };
+		54630E182D285928006F0F95 /* LaundryRoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaundryRoomView.swift; sourceTree = "<group>"; };
+		54630E1B2D285928006F0F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54630E1C2D285928006F0F95 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54630E1D2D285928006F0F95 /* Laundry_TimeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Laundry_TimeApp.swift; sourceTree = "<group>"; };
+		54630E272D285AA0006F0F95 /* Laundry_TimeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Laundry_TimeApp.swift; sourceTree = "<group>"; };
+		54630E292D285AA0006F0F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54630E2B2D285AA0006F0F95 /* App.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = App.js; path = ../App.js; sourceTree = "<group>"; };
+		54630E2C2D285AA0006F0F95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54630E322D285B07006F0F95 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54630E3A2D28834B006F0F95 /* FirebaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		54630E3F2D288578006F0F95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54BAA3762D274D4C00409610 /* Laundry Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laundry Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BAA3862D274D4D00409610 /* Laundry TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laundry TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BAA38A2D274D4D00409610 /* Laundry_TimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundry_TimeTests.swift; sourceTree = "<group>"; };
+		54BAA3902D274D4D00409610 /* Laundry TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laundry TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BAA3942D274D4D00409610 /* Laundry_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundry_TimeUITests.swift; sourceTree = "<group>"; };
+		54BAA3962D274D4D00409610 /* Laundry_TimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundry_TimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54BAA3732D274D4C00409610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54630E3E2D2884AE006F0F95 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BAA3832D274D4D00409610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BAA38D2D274D4D00409610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54630E132D285928006F0F95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54630E122D285928006F0F95 /* LaundryRoom.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54630E152D285928006F0F95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54630E2C2D285AA0006F0F95 /* Preview Assets.xcassets */,
+				54630E142D285928006F0F95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54630E172D285928006F0F95 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				54630E162D285928006F0F95 /* LaundryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		54630E192D285928006F0F95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54630E182D285928006F0F95 /* LaundryRoomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54630E1E2D285928006F0F95 /* Laundry Time */ = {
+			isa = PBXGroup;
+			children = (
+				54630E3F2D288578006F0F95 /* GoogleService-Info.plist */,
+				54630E132D285928006F0F95 /* Models */,
+				54630E152D285928006F0F95 /* Preview Content */,
+				54630E392D28833F006F0F95 /* Services */,
+				54630E172D285928006F0F95 /* ViewModels */,
+				54630E192D285928006F0F95 /* Views */,
+				54630E2B2D285AA0006F0F95 /* App.js */,
+				54630E1B2D285928006F0F95 /* Assets.xcassets */,
+				54630E292D285AA0006F0F95 /* Assets.xcassets */,
+				54630E1C2D285928006F0F95 /* ContentView.swift */,
+				54630E322D285B07006F0F95 /* ContentView.swift */,
+				54630E272D285AA0006F0F95 /* Laundry_TimeApp.swift */,
+				54630E1D2D285928006F0F95 /* Laundry_TimeApp.swift */,
+			);
+			path = "Laundry Time";
+			sourceTree = "<group>";
+		};
+		54630E392D28833F006F0F95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				54630E3A2D28834B006F0F95 /* FirebaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		54BAA36D2D274D4C00409610 = {
+			isa = PBXGroup;
+			children = (
+				54630E1E2D285928006F0F95 /* Laundry Time */,
+				54BAA3892D274D4D00409610 /* Laundry TimeTests */,
+				54BAA3932D274D4D00409610 /* Laundry TimeUITests */,
+				54BAA3772D274D4C00409610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54BAA3772D274D4C00409610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54BAA3762D274D4C00409610 /* Laundry Time.app */,
+				54BAA3862D274D4D00409610 /* Laundry TimeTests.xctest */,
+				54BAA3902D274D4D00409610 /* Laundry TimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54BAA3892D274D4D00409610 /* Laundry TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				54BAA38A2D274D4D00409610 /* Laundry_TimeTests.swift */,
+			);
+			path = "Laundry TimeTests";
+			sourceTree = "<group>";
+		};
+		54BAA3932D274D4D00409610 /* Laundry TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54BAA3942D274D4D00409610 /* Laundry_TimeUITests.swift */,
+				54BAA3962D274D4D00409610 /* Laundry_TimeUITestsLaunchTests.swift */,
+			);
+			path = "Laundry TimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54BAA3752D274D4C00409610 /* Laundry Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BAA39A2D274D4D00409610 /* Build configuration list for PBXNativeTarget "Laundry Time" */;
+			buildPhases = (
+				54BAA3722D274D4C00409610 /* Sources */,
+				54BAA3732D274D4C00409610 /* Frameworks */,
+				54BAA3742D274D4C00409610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Laundry Time";
+			packageProductDependencies = (
+				54630E3D2D2884AE006F0F95 /* FirebaseFirestore */,
+			);
+			productName = "Laundry Time";
+			productReference = 54BAA3762D274D4C00409610 /* Laundry Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54BAA3852D274D4D00409610 /* Laundry TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BAA39D2D274D4D00409610 /* Build configuration list for PBXNativeTarget "Laundry TimeTests" */;
+			buildPhases = (
+				54BAA3822D274D4D00409610 /* Sources */,
+				54BAA3832D274D4D00409610 /* Frameworks */,
+				54BAA3842D274D4D00409610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54BAA3882D274D4D00409610 /* PBXTargetDependency */,
+			);
+			name = "Laundry TimeTests";
+			productName = "Laundry TimeTests";
+			productReference = 54BAA3862D274D4D00409610 /* Laundry TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54BAA38F2D274D4D00409610 /* Laundry TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BAA3A02D274D4D00409610 /* Build configuration list for PBXNativeTarget "Laundry TimeUITests" */;
+			buildPhases = (
+				54BAA38C2D274D4D00409610 /* Sources */,
+				54BAA38D2D274D4D00409610 /* Frameworks */,
+				54BAA38E2D274D4D00409610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54BAA3922D274D4D00409610 /* PBXTargetDependency */,
+			);
+			name = "Laundry TimeUITests";
+			productName = "Laundry TimeUITests";
+			productReference = 54BAA3902D274D4D00409610 /* Laundry TimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54BAA36E2D274D4C00409610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					54BAA3752D274D4C00409610 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					54BAA3852D274D4D00409610 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 54BAA3752D274D4C00409610;
+					};
+					54BAA38F2D274D4D00409610 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 54BAA3752D274D4C00409610;
+					};
+				};
+			};
+			buildConfigurationList = 54BAA3712D274D4C00409610 /* Build configuration list for PBXProject "Laundry Time" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54BAA36D2D274D4C00409610;
+			packageReferences = (
+				54630E3C2D2884AE006F0F95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 54BAA3772D274D4C00409610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54BAA3752D274D4C00409610 /* Laundry Time */,
+				54BAA3852D274D4D00409610 /* Laundry TimeTests */,
+				54BAA38F2D274D4D00409610 /* Laundry TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54BAA3742D274D4C00409610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54630E302D285AA0006F0F95 /* App.js in Resources */,
+				54630E202D285928006F0F95 /* Preview Assets.xcassets in Resources */,
+				54630E2F2D285AA0006F0F95 /* Assets.xcassets in Resources */,
+				54630E312D285AA0006F0F95 /* Preview Assets.xcassets in Resources */,
+				54630E242D285928006F0F95 /* Assets.xcassets in Resources */,
+				54630E402D288578006F0F95 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BAA3842D274D4D00409610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BAA38E2D274D4D00409610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54BAA3722D274D4C00409610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54630E2D2D285AA0006F0F95 /* Laundry_TimeApp.swift in Sources */,
+				54630E212D285928006F0F95 /* LaundryViewModel.swift in Sources */,
+				54630E3B2D28834B006F0F95 /* FirebaseService.swift in Sources */,
+				54630E332D285B07006F0F95 /* ContentView.swift in Sources */,
+				54630E262D285928006F0F95 /* Laundry_TimeApp.swift in Sources */,
+				54630E252D285928006F0F95 /* ContentView.swift in Sources */,
+				54630E1F2D285928006F0F95 /* LaundryRoom.swift in Sources */,
+				54630E222D285928006F0F95 /* LaundryRoomView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BAA3822D274D4D00409610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BAA38B2D274D4D00409610 /* Laundry_TimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BAA38C2D274D4D00409610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BAA3952D274D4D00409610 /* Laundry_TimeUITests.swift in Sources */,
+				54BAA3972D274D4D00409610 /* Laundry_TimeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54BAA3882D274D4D00409610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54BAA3752D274D4C00409610 /* Laundry Time */;
+			targetProxy = 54BAA3872D274D4D00409610 /* PBXContainerItemProxy */;
+		};
+		54BAA3922D274D4D00409610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54BAA3752D274D4C00409610 /* Laundry Time */;
+			targetProxy = 54BAA3912D274D4D00409610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54BAA3982D274D4D00409610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54BAA3992D274D4D00409610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54BAA39B2D274D4D00409610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Laundry Time/Preview Content\"";
+				DEVELOPMENT_TEAM = V3748UVW3A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaundryTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54BAA39C2D274D4D00409610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Laundry Time/Preview Content\"";
+				DEVELOPMENT_TEAM = V3748UVW3A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaundryTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54BAA39E2D274D4D00409610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3748UVW3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaundryTime.Laundry-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laundry Time.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Laundry Time";
+			};
+			name = Debug;
+		};
+		54BAA39F2D274D4D00409610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3748UVW3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaundryTime.Laundry-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laundry Time.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Laundry Time";
+			};
+			name = Release;
+		};
+		54BAA3A12D274D4D00409610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3748UVW3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaundryTime.Laundry-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Laundry Time";
+			};
+			name = Debug;
+		};
+		54BAA3A22D274D4D00409610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3748UVW3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaundryTime.Laundry-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Laundry Time";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54BAA3712D274D4C00409610 /* Build configuration list for PBXProject "Laundry Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BAA3982D274D4D00409610 /* Debug */,
+				54BAA3992D274D4D00409610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54BAA39A2D274D4D00409610 /* Build configuration list for PBXNativeTarget "Laundry Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BAA39B2D274D4D00409610 /* Debug */,
+				54BAA39C2D274D4D00409610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54BAA39D2D274D4D00409610 /* Build configuration list for PBXNativeTarget "Laundry TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BAA39E2D274D4D00409610 /* Debug */,
+				54BAA39F2D274D4D00409610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54BAA3A02D274D4D00409610 /* Build configuration list for PBXNativeTarget "Laundry TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BAA3A12D274D4D00409610 /* Debug */,
+				54BAA3A22D274D4D00409610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54630E3C2D2884AE006F0F95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54630E3D2D2884AE006F0F95 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54630E3C2D2884AE006F0F95 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 54BAA36E2D274D4C00409610 /* Project object */;
+}
